@@ -20,9 +20,9 @@ def incidence_coloring(G, hex_colors=False):
     _scream_if_not_subquartic(G)
     
     if max(G.degree_iterator()) < 4:
-        G_coloring = _ic_max_degree_3(G)
+        G_coloring = _inverse_coloring(_ic_max_degree_3(G), {1,2,3,4,5})
     else:
-        G_coloring = _ic_max_degree_4(G)
+        G_coloring = _inverse_coloring(_ic_max_degree_4(G), {1,2,3,4,5,6,7})
     
     if hex_colors:
         return _to_hex_colors(G_coloring)
@@ -287,5 +287,3 @@ def _scream_if_not_subquartic(G):
     """
     if max(G.degree_iterator()) > 4:
         raise ValueError("only graphs of maximum degree 3 are supported")
-
-    
