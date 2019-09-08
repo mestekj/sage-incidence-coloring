@@ -62,3 +62,8 @@ The file `IncidenceColoring.ipynb` is Sage Notebook containing examples of use o
 # References
 1. M. Maydanskiy. The incidence coloring conjecture for graphs of maximum degree three. *Discrete Math.* 292:131-141 (2005). [doi:10.1016/j.disc.2005.02.003](http://dx.doi.org/10.1016/j.disc.2005.02.003)
 2. P. Gregor, B. Lužar, R. Soták. Note on incidence chromatic number of subquartic graphs. *J. Comb. Optim.* (2016). [doi:0.1007/s10878-016-0072-2](http://dx.doi.org/10.1007/s10878-016-0072-2)
+
+# Author
+Jakub Mestek
+
+Created as Individual Software Project at the Faculty of Mathematics and Physics of the Charles University under supervision of Mgr. Petr Gregor, Ph.D.
